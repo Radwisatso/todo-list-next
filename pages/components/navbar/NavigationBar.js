@@ -5,13 +5,15 @@ import styles from "./NavigationBar.module.css"
 export default function NavigationBar() {
   return (
     <Fragment>
-      <nav className={styles['navigation-bar']}>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Todo List</li>
-        </ul>
-      </nav>
+      <header className={styles['navigation-header']}>
+        <div className={styles['navigation-container']}>
+          <ul className={styles["navigation-list"]}>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">To-do List</a></li>
+          </ul>
+        </div>
+      </header>
     </Fragment>
   )
 }

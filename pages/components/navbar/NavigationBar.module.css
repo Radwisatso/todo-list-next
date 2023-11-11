@@ -1,3 +1,24 @@
-.navigation-bar {
+.navigation-header {
     background-color: white;
+    width: 100%;
+    position: sticky;
+}
+
+.navigation-container {
+    margin: auto;
+    max-width: var(--max-width);
+}
+
+.navigation-list {
+    list-style-type: none;
+    padding: 14px 0 14px;
+}
+
+.navigation-list li {
+    display: inline;
+    padding: 0 16px;
+}
+
+.navigation-list a {
+    cursor: pointer;
 }

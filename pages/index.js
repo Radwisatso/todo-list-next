@@ -6,8 +6,6 @@ import { Poppins } from "next/font/google"
 // Components
 import NavigationBar from './components/navbar/NavigationBar'
 
-
-
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
