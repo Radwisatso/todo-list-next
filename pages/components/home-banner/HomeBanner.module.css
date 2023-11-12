@@ -1,0 +1,29 @@
+.home-banner-container {
+    max-width: var(--max-width);
+    position: relative;
+    margin: auto;
+}
+
+.home-banner-container div {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    bottom: 15em;
+}
+
+.home-banner-container p {
+    color: white;
+    font-size: 48px;
+}
+
+.background-image {
+    position: relative;
+    z-index: -1;
+}
+
+.background-image img {
+    filter: brightness(70%);
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}

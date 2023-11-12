@@ -5,6 +5,7 @@ import { Poppins } from "next/font/google"
 
 // Components
 import Layout from './components/layout-main/Layout'
+import HomeBanner from './components/home-banner/HomeBanner'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -22,30 +23,31 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section>
-        This is for Raditya Introduction
-      </section>
-      <section>
-        This is About section
-      </section>
-      <section>
-        This is Experience section
-      </section>
-      <section>
-        This is To do list section
-      </section>
-      <section>
-        Other
-      </section>
-      <section>
-        Other
-      </section>
-      <section>
-        Other
-      </section>
-      <section>
-        Other
-      </section>
+      <HomeBanner />
+      <div style={{ display: 'grid', margin: 'auto', maxWidth: '1100px' }}>
+        <section >
+          This is About section
+        </section>
+        <section>
+          This is Experience section
+        </section>
+        <section>
+          This is To do list section
+        </section>
+        <section>
+          Other
+        </section>
+        <section>
+          Other
+        </section>
+        <section>
+          Other
+        </section>
+        <section>
+          Other
+        </section>
+
+      </div>
     </>
   )
 }
