@@ -22,34 +22,30 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${poppins.className}`}>
-        <Layout>
-          <section>
-            This is for Raditya Introduction
-          </section>
-          <section>
-            This is About section
-          </section>
-          <section>
-            This is Experience section
-          </section>
-          <section>
-            This is To do list section
-          </section>
-          <section>
-            Other
-          </section>
-          <section>
-            Other
-          </section>
-          <section>
-            Other
-          </section>
-          <section>
-            Other
-          </section>
-        </Layout>
-      </main>
+      <section>
+        This is for Raditya Introduction
+      </section>
+      <section>
+        This is About section
+      </section>
+      <section>
+        This is Experience section
+      </section>
+      <section>
+        This is To do list section
+      </section>
+      <section>
+        Other
+      </section>
+      <section>
+        Other
+      </section>
+      <section>
+        Other
+      </section>
+      <section>
+        Other
+      </section>
     </>
   )
 }
