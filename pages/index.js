@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.css'
 import { Poppins } from "next/font/google"
 
 // Components
-import Layout from './components/layout-main/Layout'
+import Layout from './components/layout/Layout'
 import HomeBanner from './components/home-banner/HomeBanner'
 
 const poppins = Poppins({
