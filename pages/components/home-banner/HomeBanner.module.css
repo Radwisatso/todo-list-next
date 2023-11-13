@@ -8,12 +8,12 @@
     position: absolute;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    bottom: 15em;
+    bottom: 12em;
 }
 
 .home-banner-container p {
     color: white;
-    font-size: 48px;
+    font-size: 3em;
 }
 
 .background-image {

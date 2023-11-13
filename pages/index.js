@@ -1,18 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
-import { Poppins } from "next/font/google"
 
 // Components
-import Layout from './components/layout/Layout'
 import HomeBanner from './components/home-banner/HomeBanner'
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-poppins',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
-})
 
 export default function Home() {
   return (
@@ -35,16 +24,16 @@ export default function Home() {
           This is To do list section
         </section>
         <section>
-          Other
+          Lorem ipsum dolor sit amet
         </section>
         <section>
-          Other
+          Lorem ipsum dolor sit amet
         </section>
         <section>
-          Other
+          Lorem ipsum dolor sit amet
         </section>
         <section>
-          Other
+          Lorem ipsum dolor sit amet
         </section>
 
       </div>
