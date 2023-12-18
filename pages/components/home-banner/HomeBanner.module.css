@@ -8,7 +8,7 @@
     position: absolute;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    bottom: 12em;
+    bottom: 20em;
 }
 
 .home-banner-container p {
@@ -22,8 +22,8 @@
 }
 
 .background-image img {
-    filter: brightness(70%);
+    filter: brightness(80%);
     object-fit: cover;
-    height: 500px;
+    height: 700px;
     width: 100%;
 }
